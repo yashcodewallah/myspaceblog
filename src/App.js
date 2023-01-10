@@ -8,7 +8,7 @@ import Login from './pages/login/login';
 import Register from './pages/register/register';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
-  const currentUser=false;
+  const currentUser=true;
   return (
     <Router>
 <Topbar />
